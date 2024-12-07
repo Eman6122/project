@@ -1,0 +1,175 @@
+*{
+    text-align: center;
+    align-content: center;
+
+
+}
+body{
+    width: 80%;
+    margin-left: 10%;
+       
+}
+.hdr{
+    background-color:cadetblue;
+    background-repeat: no-repeat;
+
+
+}
+.logo{
+    border:1px solid red;
+    border-radius: 50%;
+    float: left;
+    margin: 50px;
+    
+}
+.logo img{
+    width: fit-content;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.titl{
+    font-size: 40px;
+    color: aliceblue;
+}
+.titl h3{
+    color: azure;
+}
+
+.nvg{
+    
+    width: 100%;
+    background-color: aquamarine;
+
+}
+.nvg a{
+    float: right;
+    width: 25%;
+    height: 50px;
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: tomato;
+    background-color: antiquewhite;
+    
+}
+.nvg a:hover{
+    background-color: burlywood;
+}
+.nvg a:active{
+    color: white;
+}
+
+.face , .sign{
+    margin-top: 50px;
+}
+.face1{
+    background-color:beige
+}
+.face11{
+    float: left;
+    width: 50%;
+}
+.face11 img{
+    width: 100%;
+}
+.face12{
+    padding: 50px 10px 0px 10px;
+    background-color: beige;
+
+}
+.act{
+    background-color: rgb(127, 187, 189);
+    padding: 10px;
+
+}
+.act a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.act:hover{
+    background-color: rgb(90, 176, 246);
+}
+
+.serv{
+    margin-top: 50px;
+}
+.serv .face1{
+
+}
+.serv .face11{
+    padding-top: 20px;
+    width: 50%;
+    background-color: rgb(219, 213, 147);
+}
+.serv .face11 img{
+    width: 90%;
+}
+.serv img:hover{
+    transform: rotate(180);
+    transition: ease-in;
+}
+
+.sign{
+    background-color: white;
+    padding-bottom: 30px;
+    font-size: 25px;
+    
+}
+
+.sign label, .sign input, .sign textarea{
+    display: block;
+    height: 35px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-color: rgb(246, 236, 202);
+    border-radius: 15px;
+
+}
+.sign label{
+    background-color: rgb(238, 219, 191);
+    margin-top: 30px;
+}
+.sign input{
+    border: none;
+    border: 1px solid ;
+}
+.sign textarea{
+    height: 100px;
+    margin-bottom: 30px;
+}
+.sign .sub{
+    background-color: rgb(227, 171, 219);
+    font-size: 25px;
+    
+}
+
+.sign .sub:hover{
+    background-color: rgb(196, 171, 227);
+    cursor: pointer;    
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: rgba(181, 154, 154, 0.571);
+}
+
+.footer .f1{
+    float: left;
+    margin: 30px;
+    height: 300px;
+}
+.footer .f2{
+    background-color: bisque;
+    margin: 20px;
+    padding: 20px;
+}
+.copyright{
+    display: inline-flex;
+    margin-bottom: 100px;
+}
